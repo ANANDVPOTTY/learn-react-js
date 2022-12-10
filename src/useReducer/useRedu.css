@@ -1,0 +1,39 @@
+.container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.container1 > button {
+  padding: 18px;
+  border-radius: 15%;
+  color: white;
+  color: black;
+  font-size: 2rem;
+}
+
+label {
+  font-size: 70px;
+  padding: 10px;
+  color: rgb(40, 40, 38);
+}
+
+/* to change colour button in jsx */
+
+.container2 {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.container2 > button {
+  padding: 15px;
+  border-radius: 40%;
+  color: white;
+  color: black;
+  font-size: 2rem;
+}
